@@ -27,3 +27,7 @@ end
 def kesha_maker(array)
   array.each {|e| e[2] = "$"}
 end
+
+def find_a(array)
+  array.select {|e| e.start_with?("a")}
+end
